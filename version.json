@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T03:03:06Z",
+  "updatedAt": "2026-08-11T02:21:12Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -8,7 +8,7 @@
       "minimumVersion": "9.5",
       "latestVersion": "9.5",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/タップ連打で眠らせろ-メェ-メェ-スリープ/id6754670480",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%BF%E3%83%83%E3%83%97%E9%80%A3%E6%89%93%E3%81%A7%E7%9C%A0%E3%82%89%E3%81%9B%E3%82%8D-%E3%83%A1%E3%82%A7-%E3%83%A1%E3%82%A7-%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%97/id6754670480",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "patapen.app": {

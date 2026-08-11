@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T02:33:57Z",
+  "updatedAt": "2026-08-11T02:46:58Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -17,7 +17,7 @@
       "minimumVersion": "7.2",
       "latestVersion": "7.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/飛べ-ぱたぱたペンギン/id6755790854",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E9%A3%9B%E3%81%B9-%E3%81%B1%E3%81%9F%E3%81%B1%E3%81%9F%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3/id6755790854",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "pakarakko.app": {
@@ -26,7 +26,7 @@
       "minimumVersion": "5.5",
       "latestVersion": "5.5",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ぱかラッコ/id6755575306",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%B1%E3%81%8B%E3%83%A9%E3%83%83%E3%82%B3/id6755575306",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "AntDash.app": {
@@ -35,7 +35,7 @@
       "minimumVersion": "7.2",
       "latestVersion": "7.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/アリんこダッシュ/id6756427410",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%AA%E3%82%93%E3%81%93%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5/id6756427410",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "sanbadetento.app": {
@@ -44,7 +44,7 @@
       "minimumVersion": "8.2",
       "latestVersion": "8.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/サンバ-de-テントウムシ/id6756080305",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B5%E3%83%B3%E3%83%90-de-%E3%83%86%E3%83%B3%E3%83%88%E3%82%A6%E3%83%A0%E3%82%B7/id6756080305",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "forestscymbal.app": {
@@ -53,7 +53,7 @@
       "minimumVersion": "6.0",
       "latestVersion": "6.0",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/森のシンバル音楽会/id6756160545",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E6%A3%AE%E3%81%AE%E3%82%B7%E3%83%B3%E3%83%90%E3%83%AB%E9%9F%B3%E6%A5%BD%E4%BC%9A/id6756160545",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "ChargingUnicorn.app": {
@@ -62,7 +62,7 @@
       "minimumVersion": "4.4",
       "latestVersion": "4.4",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/とっしんユニコーン/id6756765101",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%A8%E3%81%A3%E3%81%97%E3%82%93%E3%83%A6%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%B3/id6756765101",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "DaneDanceGorilla.app": {
@@ -71,7 +71,7 @@
       "minimumVersion": "8.2",
       "latestVersion": "8.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ダンスダンスゴリラ/id6756553385",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%80%E3%83%B3%E3%82%B9%E3%82%B4%E3%83%AA%E3%83%A9/id6756553385",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "DragonflyCatch.app": {
@@ -80,7 +80,7 @@
       "minimumVersion": "4.5",
       "latestVersion": "4.5",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/トンボキャッチ/id6756613228",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%B3%E3%83%9C%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81/id6756613228",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "CatsStraightAhead.app": {
@@ -89,7 +89,7 @@
       "minimumVersion": "8.2",
       "latestVersion": "8.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ネコまっしぐら/id6756287155",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%8D%E3%82%B3%E3%81%BE%E3%81%A3%E3%81%97%E3%81%90%E3%82%89/id6756287155",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "WashingRaccoon.app": {
@@ -98,7 +98,7 @@
       "minimumVersion": "6.3",
       "latestVersion": "6.3",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ワシャワシャウォッシュアライグマ/id6756806115",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%AF%E3%82%B7%E3%83%A3%E3%83%AF%E3%82%B7%E3%83%A3%E3%82%A6%E3%82%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%B0%E3%83%9E/id6756806115",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "ScoutHoney.app": {
@@ -107,7 +107,7 @@
       "minimumVersion": "5.5",
       "latestVersion": "5.5",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/おねがいハニー/id6759444050",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%AD%E3%81%8C%E3%81%84%E3%83%8F%E3%83%8B%E3%83%BC/id6759444050",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "QuestioningPolice.app": {
@@ -116,7 +116,7 @@
       "minimumVersion": "4.4",
       "latestVersion": "4.4",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/はたらくおまわりさん/id6761051329",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%AF%E3%81%9F%E3%82%89%E3%81%8F%E3%81%8A%E3%81%BE%E3%82%8F%E3%82%8A%E3%81%95%E3%82%93/id6761051329",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "TapSculptureArtist.app": {
@@ -125,7 +125,7 @@
       "minimumVersion": "4.1",
       "latestVersion": "4.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/彫刻アーティスト/id6760828033",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E5%BD%AB%E5%88%BB%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88/id6760828033",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "SorryMachine.app": {
@@ -134,7 +134,7 @@
       "minimumVersion": "5.4",
       "latestVersion": "5.4",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/申し訳ございマシーン/id6759278545",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E7%94%B3%E3%81%97%E8%A8%B3%E3%81%94%E3%81%96%E3%81%84%E3%83%9E%E3%82%B7%E3%83%BC%E3%83%B3/id6759278545",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "ThrowShurikenNinja.app": {
@@ -152,7 +152,7 @@
       "minimumVersion": "5.1",
       "latestVersion": "5.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ゴースト吸いーぱー/id6759086980",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E5%90%B8%E3%81%84%E3%83%BC%E3%81%B1%E3%83%BC/id6759086980",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "TapWarRobot.app": {
@@ -161,7 +161,7 @@
       "minimumVersion": "4.0",
       "latestVersion": "4.0",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/大戦ロボ/id6761041018",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E5%A4%A7%E6%88%A6%E3%83%AD%E3%83%9C/id6761041018",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "HarvestingFarmRobot.app": {
@@ -170,7 +170,7 @@
       "minimumVersion": "5.1",
       "latestVersion": "5.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/農務ロボ/id6758202878",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E8%BE%B2%E5%8B%99%E3%83%AD%E3%83%9C/id6758202878",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "com.WorldFossilDiscovery.app": {
@@ -179,7 +179,7 @@
       "minimumVersion": "3.2",
       "latestVersion": "3.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/世界かせき発見/id6762740551",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E4%B8%96%E7%95%8C%E3%81%8B%E3%81%9B%E3%81%8D%E7%99%BA%E8%A6%8B/id6762740551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "com.MasterCraftSword.app": {
@@ -188,7 +188,7 @@
       "minimumVersion": "3.1",
       "latestVersion": "3.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/匠の刀/id6763238767",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E5%8C%A0%E3%81%AE%E5%88%80/id6763238767",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "HurdleSpeeding.app": {
@@ -197,7 +197,7 @@
       "minimumVersion": "2.1",
       "latestVersion": "2.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ハードル暴走族/id6767499229",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%AB%E6%9A%B4%E8%B5%B0%E6%97%8F/id6767499229",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "MoleStrikers.app": {
@@ -206,7 +206,7 @@
       "minimumVersion": "2.1",
       "latestVersion": "2.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/もぐもぐストライカーズ/id6765616624",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%82%E3%81%90%E3%82%82%E3%81%90%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AB%E3%83%BC%E3%82%BA/id6765616624",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "MakimakiFishingBattle.app": {
@@ -215,7 +215,7 @@
       "minimumVersion": "2.1",
       "latestVersion": "2.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/マキマキ釣りバトル/id6764324219",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AD%E3%83%9E%E3%82%AD%E9%87%A3%E3%82%8A%E3%83%90%E3%83%88%E3%83%AB/id6764324219",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "PowerGenerationLab.app": {
@@ -224,7 +224,7 @@
       "minimumVersion": "2.1",
       "latestVersion": "2.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/発電ラボ/id6766842661",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E7%99%BA%E9%9B%BB%E3%83%A9%E3%83%9C/id6766842661",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "aaaMarmotaaaaaaaaaa.app": {
@@ -233,7 +233,7 @@
       "minimumVersion": "1.9",
       "latestVersion": "1.9",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/あああマーモットああああああああああ/id6769319551",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%82%E3%81%82%E3%81%82%E3%83%9E%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/id6769319551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "DontComeDontCome.app": {
@@ -242,7 +242,7 @@
       "minimumVersion": "1.4",
       "latestVersion": "1.4",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/来るな-きっと来るな/id6770499617",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E6%9D%A5%E3%82%8B%E3%81%AA-%E3%81%8D%E3%81%A3%E3%81%A8%E6%9D%A5%E3%82%8B%E3%81%AA/id6770499617",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "GetInTheRobot.app": {
@@ -251,7 +251,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ロボに乗りなさい/id6772908094",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%AD%E3%83%9C%E3%81%AB%E4%B9%97%E3%82%8A%E3%81%AA%E3%81%95%E3%81%84/id6772908094",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "OstrichMemory.app": {
@@ -260,7 +260,7 @@
       "minimumVersion": "1.9",
       "latestVersion": "1.9",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ダチョウの記憶力/id6772075218",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%81%E3%83%A7%E3%82%A6%E3%81%AE%E8%A8%98%E6%86%B6%E5%8A%9B/id6772075218",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "FireDestroyer": {
@@ -269,7 +269,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/火消しのデストロイ/id6772046061",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E7%81%AB%E6%B6%88%E3%81%97%E3%81%AE%E3%83%87%E3%82%B9%E3%83%88%E3%83%AD%E3%82%A4/id6772046061",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "hiyokokantei.app": {
@@ -278,7 +278,7 @@
       "minimumVersion": "1.7",
       "latestVersion": "1.7",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ひよこ鑑定士への道/id6773642319",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%B2%E3%82%88%E3%81%93%E9%91%91%E5%AE%9A%E5%A3%AB%E3%81%B8%E3%81%AE%E9%81%93/id6773642319",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "ButigiresHarisenbon.app": {
@@ -287,7 +287,7 @@
       "minimumVersion": "1.6",
       "latestVersion": "1.6",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ブチギレハリセンボン/id6777916291",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%81%E3%82%AE%E3%83%AC%E3%83%8F%E3%83%AA%E3%82%BB%E3%83%B3%E3%83%9C%E3%83%B3/id6777916291",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "snowballsnowman.app": {
@@ -296,7 +296,7 @@
       "minimumVersion": "1.4",
       "latestVersion": "1.4",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/雪た-るま式雪た-るま/id6777918768",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E9%9B%AA%E3%81%9F-%E3%82%8B%E3%81%BE%E5%BC%8F%E9%9B%AA%E3%81%9F-%E3%82%8B%E3%81%BE/id6777918768",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "flamingoisred.app": {
@@ -305,7 +305,7 @@
       "minimumVersion": "1.4",
       "latestVersion": "1.4",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/フラミンゴはなぜ赤い/id6780320526",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B3-%E3%81%AF%E3%81%AA%E3%81%9B-%E8%B5%A4%E3%81%84/id6780320526",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "hummingbirdenergy.app": {
@@ -314,7 +314,7 @@
       "minimumVersion": "1.1",
       "latestVersion": "1.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ハチト-リは燃費か-悪い/id6780319852",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%81%E3%83%88-%E3%83%AA%E3%81%AF%E7%87%83%E8%B2%BB%E3%81%8B-%E6%82%AA%E3%81%84/id6780319852",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "secondvisualnovel.app": {
@@ -323,7 +323,7 @@
       "minimumVersion": "1.4",
       "latestVersion": "1.4",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/2週目ノヘ-ルケ-ー/id6782744468",
+      "appStoreURL": "https://apps.apple.com/jp/app/2%E9%80%B1%E7%9B%AE%E3%83%8E%E3%83%98-%E3%83%AB%E3%82%B1-%E3%83%BC/id6782744468",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "PenguinFishCatch.app": {
@@ -332,7 +332,7 @@
       "minimumVersion": "1.4",
       "latestVersion": "1.4",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ペンギンの魚キャッチ/id6789468696",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E3%81%AE%E9%AD%9A%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81/id6789468696",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "santasori.app": {
@@ -341,7 +341,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/サンタのそりに荷物を/id6789007886",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B5%E3%83%B3%E3%82%BF%E3%81%AE%E3%81%9D%E3%82%8A%E3%81%AB%E8%8D%B7%E7%89%A9%E3%82%92/id6789007886",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "AlligatorDentist.app": {
@@ -350,7 +350,7 @@
       "minimumVersion": "1.3",
       "latestVersion": "1.3",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/ワニの歯みがき係/id6789013257",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%AF%E3%83%8B%E3%81%AE%E6%AD%AF%E3%81%BF%E3%81%8B-%E3%81%8D%E4%BF%82/id6789013257",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "GrowMushrooms": {
@@ -359,7 +359,7 @@
       "minimumVersion": "1.4",
       "latestVersion": "1.4",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/きのこを生やす/id6789468032",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%8D%E3%81%AE%E3%81%93%E3%82%92%E7%94%9F%E3%82%84%E3%81%99/id6789468032",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "tamashiinoyugiri.app": {
@@ -368,7 +368,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/魂の湯切り/id6792601758",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E9%AD%82%E3%81%AE%E6%B9%AF%E5%88%87%E3%82%8A/id6792601758",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "capybarayuzu.app": {
@@ -377,7 +377,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/カヒ-ハ-ラに柚子を/id6795493470",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%92-%E3%83%8F-%E3%83%A9%E3%81%AB%E6%9F%9A%E5%AD%90%E3%82%92/id6795493470",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "tsubutsubutsubushikakari.app": {
@@ -386,7 +386,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/つぶつぶ潰し係/id6796217723",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%A4%E3%81%B6%E3%81%A4%E3%81%B6%E6%BD%B0%E3%81%97%E4%BF%82/id6796217723",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "mochitsuki.app": {
@@ -395,7 +395,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/餅は餅つき/id6796219724",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E9%A4%85%E3%81%AF%E9%A4%85%E3%81%A4%E3%81%8D/id6796219724",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "kusakaribaachan.app": {
@@ -404,7 +404,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/おばあちゃんは草を刈る/id6796549146",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%B0%E3%81%82%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E8%8D%89%E3%82%92%E5%88%88%E3%82%8B/id6796549146",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "takoyakiflip.app": {
@@ -413,7 +413,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/たこ焼きをひっくり返せ/id6796548203",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D%E3%82%92%E3%81%B2%E3%81%A3%E3%81%8F%E3%82%8A%E8%BF%94%E3%81%9B/id6796548203",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "whereisacorn.app": {
@@ -422,7 +422,7 @@
       "minimumVersion": "1.1",
       "latestVersion": "1.1",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/と-んく-りを忘れるな/id6789006942",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%A8-%E3%82%93%E3%81%8F-%E3%82%8A%E3%82%92%E5%BF%98%E3%82%8C%E3%82%8B%E3%81%AA/id6789006942",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "hankokakari.app": {
@@ -431,7 +431,7 @@
       "minimumVersion": "1.2",
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
-      "appStoreURL": "https://apps.apple.com/jp/app/今日も書類にハンコを/id6796647639",
+      "appStoreURL": "https://apps.apple.com/jp/app/%E4%BB%8A%E6%97%A5%E3%82%82%E6%9B%B8%E9%A1%9E%E3%81%AB%E3%83%8F%E3%83%B3%E3%82%B3%E3%82%92/id6796647639",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     }
   }

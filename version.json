@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T02:46:58Z",
+  "updatedAt": "2026-08-13T04:08:20Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -176,8 +176,8 @@
     "com.WorldFossilDiscovery.app": {
       "appName": "世界のかせき発見",
       "platform": "iOS",
-      "minimumVersion": "3.2",
-      "latestVersion": "3.2",
+      "minimumVersion": "3.4",
+      "latestVersion": "3.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E4%B8%96%E7%95%8C%E3%81%8B%E3%81%9B%E3%81%8D%E7%99%BA%E8%A6%8B/id6762740551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -185,8 +185,8 @@
     "com.MasterCraftSword.app": {
       "appName": "匠の刀",
       "platform": "iOS",
-      "minimumVersion": "3.1",
-      "latestVersion": "3.1",
+      "minimumVersion": "3.3",
+      "latestVersion": "3.3",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E5%8C%A0%E3%81%AE%E5%88%80/id6763238767",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -203,8 +203,8 @@
     "MoleStrikers.app": {
       "appName": "もぐもぐストライカーズ",
       "platform": "iOS",
-      "minimumVersion": "2.1",
-      "latestVersion": "2.1",
+      "minimumVersion": "2.2",
+      "latestVersion": "2.2",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%82%E3%81%90%E3%82%82%E3%81%90%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AB%E3%83%BC%E3%82%BA/id6765616624",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -212,8 +212,8 @@
     "MakimakiFishingBattle.app": {
       "appName": "マキマキ釣りバトル",
       "platform": "iOS",
-      "minimumVersion": "2.1",
-      "latestVersion": "2.1",
+      "minimumVersion": "6.8",
+      "latestVersion": "6.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AD%E3%83%9E%E3%82%AD%E9%87%A3%E3%82%8A%E3%83%90%E3%83%88%E3%83%AB/id6764324219",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -230,8 +230,8 @@
     "aaaMarmotaaaaaaaaaa.app": {
       "appName": "あああマーモットああああああああああ",
       "platform": "iOS",
-      "minimumVersion": "1.9",
-      "latestVersion": "1.9",
+      "minimumVersion": "2.0",
+      "latestVersion": "2.0",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%82%E3%81%82%E3%81%82%E3%83%9E%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/id6769319551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -239,8 +239,8 @@
     "DontComeDontCome.app": {
       "appName": "来るな！きっと来るな！",
       "platform": "iOS",
-      "minimumVersion": "1.4",
-      "latestVersion": "1.4",
+      "minimumVersion": "1.5",
+      "latestVersion": "1.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E6%9D%A5%E3%82%8B%E3%81%AA-%E3%81%8D%E3%81%A3%E3%81%A8%E6%9D%A5%E3%82%8B%E3%81%AA/id6770499617",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -257,8 +257,8 @@
     "OstrichMemory.app": {
       "appName": "ダチョウの記憶力",
       "platform": "iOS",
-      "minimumVersion": "1.9",
-      "latestVersion": "1.9",
+      "minimumVersion": "2.0",
+      "latestVersion": "2.0",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%81%E3%83%A7%E3%82%A6%E3%81%AE%E8%A8%98%E6%86%B6%E5%8A%9B/id6772075218",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -266,8 +266,8 @@
     "FireDestroyer": {
       "appName": "火消しのデストロイ",
       "platform": "iOS",
-      "minimumVersion": "1.2",
-      "latestVersion": "1.2",
+      "minimumVersion": "1.4",
+      "latestVersion": "1.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E7%81%AB%E6%B6%88%E3%81%97%E3%81%AE%E3%83%87%E3%82%B9%E3%83%88%E3%83%AD%E3%82%A4/id6772046061",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -275,8 +275,8 @@
     "hiyokokantei.app": {
       "appName": "ひよこ鑑定士への道",
       "platform": "iOS",
-      "minimumVersion": "1.7",
-      "latestVersion": "1.7",
+      "minimumVersion": "1.8",
+      "latestVersion": "1.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%B2%E3%82%88%E3%81%93%E9%91%91%E5%AE%9A%E5%A3%AB%E3%81%B8%E3%81%AE%E9%81%93/id6773642319",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -284,8 +284,8 @@
     "ButigiresHarisenbon.app": {
       "appName": "ブチギレハリセンボン",
       "platform": "iOS",
-      "minimumVersion": "1.6",
-      "latestVersion": "1.6",
+      "minimumVersion": "1.7",
+      "latestVersion": "1.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%81%E3%82%AE%E3%83%AC%E3%83%8F%E3%83%AA%E3%82%BB%E3%83%B3%E3%83%9C%E3%83%B3/id6777916291",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -302,8 +302,8 @@
     "flamingoisred.app": {
       "appName": "フラミンゴはなぜ赤い",
       "platform": "iOS",
-      "minimumVersion": "1.4",
-      "latestVersion": "1.4",
+      "minimumVersion": "1.5",
+      "latestVersion": "1.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B3-%E3%81%AF%E3%81%AA%E3%81%9B-%E8%B5%A4%E3%81%84/id6780320526",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -320,8 +320,8 @@
     "secondvisualnovel.app": {
       "appName": "2周目ノベルゲー",
       "platform": "iOS",
-      "minimumVersion": "1.4",
-      "latestVersion": "1.4",
+      "minimumVersion": "1.5",
+      "latestVersion": "1.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/2%E9%80%B1%E7%9B%AE%E3%83%8E%E3%83%98-%E3%83%AB%E3%82%B1-%E3%83%BC/id6782744468",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -338,8 +338,8 @@
     "santasori.app": {
       "appName": "サンタのそりに荷物を",
       "platform": "iOS",
-      "minimumVersion": "1.2",
-      "latestVersion": "1.2",
+      "minimumVersion": "1.3",
+      "latestVersion": "1.3",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B5%E3%83%B3%E3%82%BF%E3%81%AE%E3%81%9D%E3%82%8A%E3%81%AB%E8%8D%B7%E7%89%A9%E3%82%92/id6789007886",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -347,8 +347,8 @@
     "AlligatorDentist.app": {
       "appName": "ワニの歯みがき係",
       "platform": "iOS",
-      "minimumVersion": "1.3",
-      "latestVersion": "1.3",
+      "minimumVersion": "1.4",
+      "latestVersion": "1.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%AF%E3%83%8B%E3%81%AE%E6%AD%AF%E3%81%BF%E3%81%8B-%E3%81%8D%E4%BF%82/id6789013257",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -356,8 +356,8 @@
     "GrowMushrooms": {
       "appName": "きのこを生やす",
       "platform": "iOS",
-      "minimumVersion": "1.4",
-      "latestVersion": "1.4",
+      "minimumVersion": "1.5",
+      "latestVersion": "1.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%8D%E3%81%AE%E3%81%93%E3%82%92%E7%94%9F%E3%82%84%E3%81%99/id6789468032",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -365,8 +365,8 @@
     "tamashiinoyugiri.app": {
       "appName": "魂の湯切り",
       "platform": "iOS",
-      "minimumVersion": "1.2",
-      "latestVersion": "1.2",
+      "minimumVersion": "1.3",
+      "latestVersion": "1.3",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%AD%82%E3%81%AE%E6%B9%AF%E5%88%87%E3%82%8A/id6792601758",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

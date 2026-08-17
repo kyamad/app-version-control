@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-17T03:01:32Z",
+  "updatedAt": "2026-08-17T03:13:26Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -284,8 +284,8 @@
     "ButigiresHarisenbon.app": {
       "appName": "ブチギレハリセンボン",
       "platform": "iOS",
-      "minimumVersion": "1.7",
-      "latestVersion": "1.7",
+      "minimumVersion": "1.8",
+      "latestVersion": "1.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%81%E3%82%AE%E3%83%AC%E3%83%8F%E3%83%AA%E3%82%BB%E3%83%B3%E3%83%9C%E3%83%B3/id6777916291",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -293,8 +293,8 @@
     "snowballsnowman.app": {
       "appName": "雪だるま式雪だるま",
       "platform": "iOS",
-      "minimumVersion": "1.4",
-      "latestVersion": "1.4",
+      "minimumVersion": "1.5",
+      "latestVersion": "1.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%9B%AA%E3%81%9F-%E3%82%8B%E3%81%BE%E5%BC%8F%E9%9B%AA%E3%81%9F-%E3%82%8B%E3%81%BE/id6777918768",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -302,8 +302,8 @@
     "flamingoisred.app": {
       "appName": "フラミンゴはなぜ赤い",
       "platform": "iOS",
-      "minimumVersion": "1.5",
-      "latestVersion": "1.5",
+      "minimumVersion": "1.6",
+      "latestVersion": "1.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B3-%E3%81%AF%E3%81%AA%E3%81%9B-%E8%B5%A4%E3%81%84/id6780320526",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -320,8 +320,8 @@
     "secondvisualnovel.app": {
       "appName": "2周目ノベルゲー",
       "platform": "iOS",
-      "minimumVersion": "1.5",
-      "latestVersion": "1.5",
+      "minimumVersion": "1.7",
+      "latestVersion": "1.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/2%E9%80%B1%E7%9B%AE%E3%83%8E%E3%83%98-%E3%83%AB%E3%82%B1-%E3%83%BC/id6782744468",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

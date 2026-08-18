@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T01:56:33Z",
+  "updatedAt": "2026-08-18T03:37:59Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
       "platform": "iOS",
-      "minimumVersion": "9.5",
-      "latestVersion": "9.5",
+      "minimumVersion": "9.7",
+      "latestVersion": "9.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%BF%E3%83%83%E3%83%97%E9%80%A3%E6%89%93%E3%81%A7%E7%9C%A0%E3%82%89%E3%81%9B%E3%82%8D-%E3%83%A1%E3%82%A7-%E3%83%A1%E3%82%A7-%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%97/id6754670480",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -14,8 +14,8 @@
     "patapen.app": {
       "appName": "飛べ ぱたぱたペンギン",
       "platform": "iOS",
-      "minimumVersion": "7.2",
-      "latestVersion": "7.2",
+      "minimumVersion": "7.4",
+      "latestVersion": "7.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%A3%9B%E3%81%B9-%E3%81%B1%E3%81%9F%E3%81%B1%E3%81%9F%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3/id6755790854",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -23,8 +23,8 @@
     "pakarakko.app": {
       "appName": "ぱかラッコ",
       "platform": "iOS",
-      "minimumVersion": "5.5",
-      "latestVersion": "5.5",
+      "minimumVersion": "5.7",
+      "latestVersion": "5.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%B1%E3%81%8B%E3%83%A9%E3%83%83%E3%82%B3/id6755575306",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -32,8 +32,8 @@
     "AntDash.app": {
       "appName": "アリんこダッシュ",
       "platform": "iOS",
-      "minimumVersion": "7.2",
-      "latestVersion": "7.2",
+      "minimumVersion": "7.4",
+      "latestVersion": "7.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%AA%E3%82%93%E3%81%93%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5/id6756427410",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -41,8 +41,8 @@
     "sanbadetento.app": {
       "appName": "サンバ de テントウムシ",
       "platform": "iOS",
-      "minimumVersion": "8.2",
-      "latestVersion": "8.2",
+      "minimumVersion": "8.4",
+      "latestVersion": "8.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B5%E3%83%B3%E3%83%90-de-%E3%83%86%E3%83%B3%E3%83%88%E3%82%A6%E3%83%A0%E3%82%B7/id6756080305",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -50,8 +50,8 @@
     "forestscymbal.app": {
       "appName": "森のシンバル音楽会",
       "platform": "iOS",
-      "minimumVersion": "6.0",
-      "latestVersion": "6.0",
+      "minimumVersion": "6.3",
+      "latestVersion": "6.3",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E6%A3%AE%E3%81%AE%E3%82%B7%E3%83%B3%E3%83%90%E3%83%AB%E9%9F%B3%E6%A5%BD%E4%BC%9A/id6756160545",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -59,8 +59,8 @@
     "ChargingUnicorn.app": {
       "appName": "とっしんユニコーン",
       "platform": "iOS",
-      "minimumVersion": "4.4",
-      "latestVersion": "4.4",
+      "minimumVersion": "4.6",
+      "latestVersion": "4.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%A8%E3%81%A3%E3%81%97%E3%82%93%E3%83%A6%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%B3/id6756765101",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -68,8 +68,8 @@
     "DaneDanceGorilla.app": {
       "appName": "ダンスダンスゴリラ",
       "platform": "iOS",
-      "minimumVersion": "8.2",
-      "latestVersion": "8.2",
+      "minimumVersion": "8.4",
+      "latestVersion": "8.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%80%E3%83%B3%E3%82%B9%E3%82%B4%E3%83%AA%E3%83%A9/id6756553385",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -77,8 +77,8 @@
     "DragonflyCatch.app": {
       "appName": "トンボキャッチ",
       "platform": "iOS",
-      "minimumVersion": "4.5",
-      "latestVersion": "4.5",
+      "minimumVersion": "4.7",
+      "latestVersion": "4.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%B3%E3%83%9C%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81/id6756613228",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -86,8 +86,8 @@
     "CatsStraightAhead.app": {
       "appName": "ネコまっしぐら",
       "platform": "iOS",
-      "minimumVersion": "8.2",
-      "latestVersion": "8.2",
+      "minimumVersion": "8.4",
+      "latestVersion": "8.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%8D%E3%82%B3%E3%81%BE%E3%81%A3%E3%81%97%E3%81%90%E3%82%89/id6756287155",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -95,8 +95,8 @@
     "WashingRaccoon.app": {
       "appName": "ワシャワシャウォッシュアライグマ",
       "platform": "iOS",
-      "minimumVersion": "6.3",
-      "latestVersion": "6.3",
+      "minimumVersion": "6.5",
+      "latestVersion": "6.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%AF%E3%82%B7%E3%83%A3%E3%83%AF%E3%82%B7%E3%83%A3%E3%82%A6%E3%82%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%B0%E3%83%9E/id6756806115",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -104,8 +104,8 @@
     "ScoutHoney.app": {
       "appName": "おねがいハニー",
       "platform": "iOS",
-      "minimumVersion": "5.5",
-      "latestVersion": "5.5",
+      "minimumVersion": "5.7",
+      "latestVersion": "5.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%AD%E3%81%8C%E3%81%84%E3%83%8F%E3%83%8B%E3%83%BC/id6759444050",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -113,8 +113,8 @@
     "QuestioningPolice.app": {
       "appName": "はたらくおまわりさん",
       "platform": "iOS",
-      "minimumVersion": "4.4",
-      "latestVersion": "4.4",
+      "minimumVersion": "4.6",
+      "latestVersion": "4.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%AF%E3%81%9F%E3%82%89%E3%81%8F%E3%81%8A%E3%81%BE%E3%82%8F%E3%82%8A%E3%81%95%E3%82%93/id6761051329",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -131,8 +131,8 @@
     "SorryMachine.app": {
       "appName": "申し訳ございマシーン",
       "platform": "iOS",
-      "minimumVersion": "5.4",
-      "latestVersion": "5.4",
+      "minimumVersion": "5.6",
+      "latestVersion": "5.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E7%94%B3%E3%81%97%E8%A8%B3%E3%81%94%E3%81%96%E3%81%84%E3%83%9E%E3%82%B7%E3%83%BC%E3%83%B3/id6759278545",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -140,8 +140,8 @@
     "ThrowShurikenNinja.app": {
       "appName": "しゅりけん忍者",
       "platform": "iOS",
-      "minimumVersion": "5.4",
-      "latestVersion": "5.4",
+      "minimumVersion": "5.6",
+      "latestVersion": "5.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%97%E3%82%85%E3%82%8A%E3%81%91%E3%82%93%E5%BF%8D%E8%80%85/id6758202699",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -149,8 +149,8 @@
     "GostSweeper.app": {
       "appName": "ゴースト吸いーぱー",
       "platform": "iOS",
-      "minimumVersion": "5.1",
-      "latestVersion": "5.1",
+      "minimumVersion": "5.3",
+      "latestVersion": "5.3",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E5%90%B8%E3%81%84%E3%83%BC%E3%81%B1%E3%83%BC/id6759086980",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -158,8 +158,8 @@
     "TapWarRobot.app": {
       "appName": "大戦ロボット",
       "platform": "iOS",
-      "minimumVersion": "4.0",
-      "latestVersion": "4.0",
+      "minimumVersion": "4.3",
+      "latestVersion": "4.3",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E5%A4%A7%E6%88%A6%E3%83%AD%E3%83%9C/id6761041018",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -167,8 +167,8 @@
     "HarvestingFarmRobot.app": {
       "appName": "農務ロボ",
       "platform": "iOS",
-      "minimumVersion": "5.1",
-      "latestVersion": "5.1",
+      "minimumVersion": "5.4",
+      "latestVersion": "5.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E8%BE%B2%E5%8B%99%E3%83%AD%E3%83%9C/id6758202878",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

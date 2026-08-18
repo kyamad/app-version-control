@@ -1,0 +1,178 @@
+name: Sync app versions from App Store
+
+# App Store で公開中の最新バージョンを Apple の公開 Lookup API から取得し、
+# version.json の minimumVersion / latestVersion を自動更新します。
+# 認証情報・外部サービス・追加パッケージは一切不要です。
+
+on:
+  schedule:
+    # 毎日 01:00 UTC = 10:00 JST
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '差分の確認だけ行い、commit しない'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-app-versions
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Look up App Store versions and update version.json
+        id: sync
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, time, urllib.request
+          from datetime import datetime, timezone
+
+          PATH    = "version.json"
+          COUNTRY = "jp"
+          CHUNK   = 20
+          UA      = "app-version-control-sync (+https://github.com/kyamad/app-version-control)"
+          # 取得できなかったアプリがこの割合を超えたら、ファイルを書き換えずに失敗させる
+          MAX_MISS_RATIO = 0.25
+
+          def parse_ver(s):
+              parts = str(s).strip().split(".")
+              if not parts or not all(p.isdigit() for p in parts):
+                  return None
+              return tuple(int(p) for p in parts)
+
+          def lookup(ids):
+              url = "https://itunes.apple.com/lookup?id=%s&country=%s" % (",".join(ids), COUNTRY)
+              req = urllib.request.Request(url, headers={"User-Agent": UA})
+              last = None
+              for attempt in range(3):
+                  try:
+                      with urllib.request.urlopen(req, timeout=30) as r:
+                          if r.status != 200:
+                              raise RuntimeError("HTTP %s" % r.status)
+                          return json.loads(r.read().decode("utf-8")).get("results", [])
+                  except Exception as e:
+                      last = e
+                      time.sleep(3 * (attempt + 1))
+              print("::warning::lookup failed for %s (%s)" % (",".join(ids), last))
+              return []
+
+          with open(PATH, encoding="utf-8") as f:
+              doc = json.load(f)
+          apps = doc["apps"]
+
+          # Bundle Identifier -> App Store の数値 ID（appStoreURL の /idNNNN から取得）
+          id_of, no_id = {}, []
+          for key, app in apps.items():
+              m = re.search(r"/id(\d+)", app.get("appStoreURL", ""))
+              if m:
+                  id_of[key] = m.group(1)
+              else:
+                  no_id.append(key)
+
+          ids = list(id_of.values())
+          found = {}
+          for i in range(0, len(ids), CHUNK):
+              for r in lookup(ids[i:i + CHUNK]):
+                  found[str(r.get("trackId"))] = r
+              time.sleep(1)
+
+          # まとめて取れなかったものは 1 件ずつ再取得
+          for tid in ids:
+              if tid not in found:
+                  for r in lookup([tid]):
+                      found[str(r.get("trackId"))] = r
+                  time.sleep(1)
+
+          updated, unchanged, missing, skipped, bundle_warn = [], [], [], [], []
+
+          for key, app in apps.items():
+              tid = id_of.get(key)
+              res = found.get(tid) if tid else None
+              if res is None:
+                  missing.append(key)
+                  continue
+              store_bundle = res.get("bundleId")
+              if store_bundle and store_bundle != key:
+                  bundle_warn.append((key, store_bundle))
+              new_s = str(res.get("version", "")).strip()
+              cur_s = str(app.get("latestVersion", "")).strip()
+              new_v, cur_v = parse_ver(new_s), parse_ver(cur_s)
+              if new_v is None or cur_v is None:
+                  skipped.append((key, cur_s, new_s, "バージョン表記を解釈できません"))
+                  continue
+              if new_v > cur_v:
+                  app["minimumVersion"] = new_s
+                  app["latestVersion"]  = new_s
+                  updated.append((key, app.get("appName", ""), cur_s, new_s))
+              elif new_v < cur_v:
+                  # App Store 側が古い＝取得の一時的な不整合の可能性。安全側に倒して変更しない
+                  skipped.append((key, cur_s, new_s, "App Store 側が古いため変更しません"))
+              else:
+                  unchanged.append(key)
+
+          total = len(apps)
+          if missing and len(missing) > max(2, int(total * MAX_MISS_RATIO)):
+              raise SystemExit(
+                  "取得できなかったアプリが多すぎます (%d/%d)。安全のため version.json を変更せずに終了します。"
+                  % (len(missing), total)
+              )
+
+          changed = bool(updated)
+          if changed:
+              doc["updatedAt"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+              body = json.dumps(doc, ensure_ascii=False, indent=2) + "\n"
+              json.loads(body)  # 書き出す前に構文を検証
+              with open(PATH, "w", encoding="utf-8", newline="") as f:
+                  f.write(body)
+
+          lines = ["## App Store バージョン同期", "",
+                   "- 対象アプリ: %d 件" % total,
+                   "- 更新: %d 件 / 変更なし: %d 件 / 取得失敗: %d 件 / スキップ: %d 件"
+                   % (len(updated), len(unchanged), len(missing), len(skipped)), ""]
+          if updated:
+              lines += ["### 更新したアプリ", "",
+                        "| アプリ名 | Bundle Identifier | 更新前 | 更新後 |", "|---|---|---|---|"]
+              lines += ["| %s | `%s` | %s | %s |" % (n, k, o, w) for k, n, o, w in updated]
+              lines += ["", "updatedAt: `%s`" % doc["updatedAt"], ""]
+          for title, rows in (("取得できなかったアプリ", [(k,) for k in missing]),):
+              if rows:
+                  lines += ["### " + title, ""] + ["- `%s`" % r[0] for r in rows] + [""]
+          if skipped:
+              lines += ["### スキップしたアプリ", ""]
+              lines += ["- `%s`: 現在 %s / App Store %s — %s" % s for s in skipped] + [""]
+          if bundle_warn:
+              lines += ["### Bundle Identifier が App Store と一致しないアプリ", ""]
+              lines += ["- `%s` → App Store 上は `%s`" % b for b in bundle_warn] + [""]
+          if no_id:
+              lines += ["### appStoreURL から App Store ID を取得できないアプリ", ""]
+              lines += ["- `%s`" % k for k in no_id] + [""]
+          summary = "\n".join(lines)
+          print(summary)
+          if os.environ.get("GITHUB_STEP_SUMMARY"):
+              with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as f:
+                  f.write(summary + "\n")
+          if os.environ.get("GITHUB_OUTPUT"):
+              with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+                  f.write("changed=%s\n" % ("true" if changed else "false"))
+                  f.write("count=%d\n" % len(updated))
+          PY
+
+      - name: Commit and push
+        if: steps.sync.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add version.json
+          git commit -m "Sync app versions from App Store (${{ steps.sync.outputs.count }} apps)"
+          git push

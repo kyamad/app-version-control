@@ -113,6 +113,10 @@ iOS アプリから参照するのは **version.json 直接URL** です。
 
 ## 5. アプリ更新時の基本手順
 
+> **注意:** 現在は「12. バージョン同期の自動化」により、手順4〜10は自動で行われます。
+> 通常は App Store に新バージョンが並べば、翌朝10時までに `version.json` へ自動反映されます。
+> 以下は自動化を停止した場合や、手動で先に反映したい場合の手順です。
+
 1. 新しいバージョンを App Store Connect へ提出する
 2. Apple の審査を通過する
 3. **App Store で実際に新バージョンをダウンロードできることを確認する**
@@ -248,6 +252,80 @@ git push origin main
 - **JSON 構文が壊れた状態で push しないでください。** push 前に必ず構文を確認します。
 - **編集したら `updatedAt` を更新してください。**
 - **push 後は必ず GitHub Pages の公開内容を確認してください。** push 完了は反映完了ではありません。
+- **段階リリース（Phased Release）中は自動同期に注意してください。** 配信が行き渡る前に `minimumVersion` が上がる可能性があります（「12. バージョン同期の自動化」参照）。
+- **手動で `minimumVersion` / `latestVersion` を下げても、次回の自動同期で App Store の値へ戻ります。**
+
+---
+
+## 12. バージョン同期の自動化（GitHub Actions）
+
+`.github/workflows/sync-app-versions.yml` により、**App Store の最新バージョンを自動で `version.json` へ反映**しています。
+
+### 仕組み
+
+Apple が公開している Lookup API（`https://itunes.apple.com/lookup`）に、各アプリの App Store ID を問い合わせ、公開中の最新バージョンを取得します。認証情報・APIキー・外部サービス・追加パッケージは一切不要です。App Store ID は各アプリの `appStoreURL` 末尾（`/idNNNNNNNNNN`）から自動で取り出します。
+
+つまり **App Store 自体が唯一の情報源**です。スプレッドシートやCSVを更新する必要はありません。
+
+### 実行タイミング
+
+- 毎日 01:00 UTC（**日本時間 10:00**）に自動実行
+- リポジトリの **Actions** タブ →「Sync app versions from App Store」→ **Run workflow** で手動実行も可能
+- 手動実行時に `dry_run` を `true` にすると、**差分の確認だけ行い commit しません**。挙動を確かめたいときに使ってください
+
+### 更新される項目
+
+差分があったアプリについて、以下を App Store の最新バージョンへ変更します。
+
+```
+minimumVersion
+latestVersion
+```
+
+加えてルートの `updatedAt` を実行時刻（UTC）へ更新します。1件も差分がなければ、**何もcommitしません**。
+
+`appName` / `platform` / `forceUpdateEnabled` / `appStoreURL` / `message` は自動更新の対象外で、一切変更されません。
+
+### ⚠️ 運用上もっとも重要な点
+
+この設定では **`minimumVersion` も同時に引き上げられます**。つまり、
+
+> App Store に新バージョンが並ぶ → 翌朝10時までに自動反映 → **旧バージョンの利用者は起動時に強制アップデート対象になる**
+
+という運用です。段階リリース（Phased Release）を使っている場合、まだ全ユーザーに配信が行き渡っていない段階で強制アップデートがかかる可能性があります。段階リリース中のアプリがある場合は、その期間だけワークフローを一時停止するか、対象アプリの `forceUpdateEnabled` を `false` にしてください。
+
+### 安全装置
+
+誤作動でユーザーがアプリを使えなくなる事故を防ぐため、以下を組み込んでいます。
+
+- **バージョンを下げない** — App Store 側が `version.json` より古い値を返した場合は変更せず、警告として記録します
+- **取得失敗が多いと中断** — 全体の25%（最低3件）を超えるアプリで取得に失敗した場合、`version.json` を一切書き換えずにワークフローを失敗させます。Apple 側の障害時に設定が壊れることを防ぎます
+- **取得できなかったアプリは据え置き** — 失敗が閾値以内なら、そのアプリだけ変更せずに実行結果へ一覧表示します
+- **書き出し前にJSON構文を検証** — 壊れたJSONがcommitされることはありません
+- **アプリを削除しない** — `version.json` にあって App Store 側で見つからないアプリも、そのまま残ります
+- **バージョン表記を解釈できない場合はスキップ** — 数字とドット以外を含むバージョンは触りません
+
+### 実行結果の確認
+
+**Actions** タブから各実行を開くと、サマリーに以下が表示されます。
+
+- 対象アプリ数 / 更新件数 / 変更なし件数 / 取得失敗件数 / スキップ件数
+- 更新したアプリの一覧（アプリ名・Bundle Identifier・更新前・更新後）
+- 取得できなかったアプリ、スキップしたアプリ、Bundle Identifier が App Store と一致しないアプリの一覧
+
+自動commitは `github-actions[bot]` 名義で行われ、GitHub Pages へは従来どおり自動反映されます。
+
+### 一時停止・再開
+
+**Actions** タブ → 左メニューの「Sync app versions from App Store」→ 右上の「…」→ **Disable workflow** で停止できます。再開は同じ場所から **Enable workflow** です。
+
+### 手動編集との併用
+
+従来どおり `version.json` を手で編集しても構いませんが、**`minimumVersion` / `latestVersion` を手動で下げても、次回の同期で App Store の値へ戻ります**。恒久的に自動更新から外したい場合は、ワークフローを停止するか、対象アプリの `forceUpdateEnabled` を `false` にしてください。
+
+### 注意
+
+GitHub の仕様上、**リポジトリに60日間まったく更新がないとスケジュール実行は自動的に無効化されます**。その場合は Actions タブから手動で再有効化してください（アプリを更新していれば自動commitが入るため、通常は発生しません）。
 
 ---
 
@@ -255,8 +333,11 @@ git push origin main
 
 ```
 app-version-control/
-├── README.md      … このファイル
-└── version.json   … 唯一の管理ファイル
+├── .github/
+│   └── workflows/
+│       └── sync-app-versions.yml   … App Store バージョン自動同期（12章）
+├── README.md                        … このファイル
+└── version.json                     … 唯一の管理ファイル
 ```
 
 新しいアプリを追加する場合は、`apps` オブジェクトへ同じ構造のブロックを 1 つ追加します。キーの並び順（`appName` / `platform` / `minimumVersion` / `latestVersion` / `forceUpdateEnabled` / `appStoreURL` / `message`）は全アプリで統一してください。

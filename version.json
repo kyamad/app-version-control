@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T01:49:29Z",
+  "updatedAt": "2026-08-19T19:30:12Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -14,8 +14,8 @@
     "patapen.app": {
       "appName": "飛べ ぱたぱたペンギン",
       "platform": "iOS",
-      "minimumVersion": "7.4",
-      "latestVersion": "7.4",
+      "minimumVersion": "7.5",
+      "latestVersion": "7.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%A3%9B%E3%81%B9-%E3%81%B1%E3%81%9F%E3%81%B1%E3%81%9F%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3/id6755790854",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -68,8 +68,8 @@
     "DaneDanceGorilla.app": {
       "appName": "ダンスダンスゴリラ",
       "platform": "iOS",
-      "minimumVersion": "8.4",
-      "latestVersion": "8.4",
+      "minimumVersion": "8.5",
+      "latestVersion": "8.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%80%E3%83%B3%E3%82%B9%E3%82%B4%E3%83%AA%E3%83%A9/id6756553385",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -95,8 +95,8 @@
     "WashingRaccoon.app": {
       "appName": "ワシャワシャウォッシュアライグマ",
       "platform": "iOS",
-      "minimumVersion": "6.5",
-      "latestVersion": "6.5",
+      "minimumVersion": "6.6",
+      "latestVersion": "6.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%AF%E3%82%B7%E3%83%A3%E3%83%AF%E3%82%B7%E3%83%A3%E3%82%A6%E3%82%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%B0%E3%83%9E/id6756806115",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -131,8 +131,8 @@
     "SorryMachine.app": {
       "appName": "申し訳ございマシーン",
       "platform": "iOS",
-      "minimumVersion": "5.6",
-      "latestVersion": "5.6",
+      "minimumVersion": "5.7",
+      "latestVersion": "5.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E7%94%B3%E3%81%97%E8%A8%B3%E3%81%94%E3%81%96%E3%81%84%E3%83%9E%E3%82%B7%E3%83%BC%E3%83%B3/id6759278545",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -140,8 +140,8 @@
     "ThrowShurikenNinja.app": {
       "appName": "しゅりけん忍者",
       "platform": "iOS",
-      "minimumVersion": "5.6",
-      "latestVersion": "5.6",
+      "minimumVersion": "5.7",
+      "latestVersion": "5.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%97%E3%82%85%E3%82%8A%E3%81%91%E3%82%93%E5%BF%8D%E8%80%85/id6758202699",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -221,8 +221,8 @@
     "PowerGenerationLab.app": {
       "appName": "発電ラボ",
       "platform": "iOS",
-      "minimumVersion": "2.1",
-      "latestVersion": "2.1",
+      "minimumVersion": "2.3",
+      "latestVersion": "2.3",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E7%99%BA%E9%9B%BB%E3%83%A9%E3%83%9C/id6766842661",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -230,8 +230,8 @@
     "aaaMarmotaaaaaaaaaa.app": {
       "appName": "あああマーモットああああああああああ",
       "platform": "iOS",
-      "minimumVersion": "2.2",
-      "latestVersion": "2.2",
+      "minimumVersion": "2.3",
+      "latestVersion": "2.3",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%82%E3%81%82%E3%81%82%E3%83%9E%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/id6769319551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -320,8 +320,8 @@
     "secondvisualnovel.app": {
       "appName": "2周目ノベルゲー",
       "platform": "iOS",
-      "minimumVersion": "1.9",
-      "latestVersion": "1.9",
+      "minimumVersion": "1.10",
+      "latestVersion": "1.10",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/2%E9%80%B1%E7%9B%AE%E3%83%8E%E3%83%98-%E3%83%AB%E3%82%B1-%E3%83%BC/id6782744468",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -338,8 +338,8 @@
     "santasori.app": {
       "appName": "サンタのそりに荷物を",
       "platform": "iOS",
-      "minimumVersion": "1.5",
-      "latestVersion": "1.5",
+      "minimumVersion": "1.6",
+      "latestVersion": "1.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B5%E3%83%B3%E3%82%BF%E3%81%AE%E3%81%9D%E3%82%8A%E3%81%AB%E8%8D%B7%E7%89%A9%E3%82%92/id6789007886",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

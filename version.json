@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T19:30:12Z",
+  "updatedAt": "2026-08-20T02:58:51Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
       "platform": "iOS",
-      "minimumVersion": "9.7",
-      "latestVersion": "9.7",
+      "minimumVersion": "9.8",
+      "latestVersion": "9.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%BF%E3%83%83%E3%83%97%E9%80%A3%E6%89%93%E3%81%A7%E7%9C%A0%E3%82%89%E3%81%9B%E3%82%8D-%E3%83%A1%E3%82%A7-%E3%83%A1%E3%82%A7-%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%97/id6754670480",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -23,8 +23,8 @@
     "pakarakko.app": {
       "appName": "ぱかラッコ",
       "platform": "iOS",
-      "minimumVersion": "5.7",
-      "latestVersion": "5.7",
+      "minimumVersion": "5.8",
+      "latestVersion": "5.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%B1%E3%81%8B%E3%83%A9%E3%83%83%E3%82%B3/id6755575306",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -32,8 +32,8 @@
     "AntDash.app": {
       "appName": "アリんこダッシュ",
       "platform": "iOS",
-      "minimumVersion": "7.4",
-      "latestVersion": "7.4",
+      "minimumVersion": "7.5",
+      "latestVersion": "7.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%AA%E3%82%93%E3%81%93%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5/id6756427410",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -41,8 +41,8 @@
     "sanbadetento.app": {
       "appName": "サンバ de テントウムシ",
       "platform": "iOS",
-      "minimumVersion": "8.4",
-      "latestVersion": "8.4",
+      "minimumVersion": "8.5",
+      "latestVersion": "8.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B5%E3%83%B3%E3%83%90-de-%E3%83%86%E3%83%B3%E3%83%88%E3%82%A6%E3%83%A0%E3%82%B7/id6756080305",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -77,8 +77,8 @@
     "DragonflyCatch.app": {
       "appName": "トンボキャッチ",
       "platform": "iOS",
-      "minimumVersion": "4.7",
-      "latestVersion": "4.7",
+      "minimumVersion": "4.8",
+      "latestVersion": "4.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%B3%E3%83%9C%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81/id6756613228",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -86,8 +86,8 @@
     "CatsStraightAhead.app": {
       "appName": "ネコまっしぐら",
       "platform": "iOS",
-      "minimumVersion": "8.4",
-      "latestVersion": "8.4",
+      "minimumVersion": "8.5",
+      "latestVersion": "8.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%8D%E3%82%B3%E3%81%BE%E3%81%A3%E3%81%97%E3%81%90%E3%82%89/id6756287155",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -113,8 +113,8 @@
     "QuestioningPolice.app": {
       "appName": "はたらくおまわりさん",
       "platform": "iOS",
-      "minimumVersion": "4.6",
-      "latestVersion": "4.6",
+      "minimumVersion": "4.7",
+      "latestVersion": "4.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%AF%E3%81%9F%E3%82%89%E3%81%8F%E3%81%8A%E3%81%BE%E3%82%8F%E3%82%8A%E3%81%95%E3%82%93/id6761051329",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -176,8 +176,8 @@
     "com.WorldFossilDiscovery.app": {
       "appName": "世界のかせき発見",
       "platform": "iOS",
-      "minimumVersion": "3.7",
-      "latestVersion": "3.7",
+      "minimumVersion": "3.8",
+      "latestVersion": "3.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E4%B8%96%E7%95%8C%E3%81%8B%E3%81%9B%E3%81%8D%E7%99%BA%E8%A6%8B/id6762740551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -194,8 +194,8 @@
     "HurdleSpeeding.app": {
       "appName": "ハードル暴走族",
       "platform": "iOS",
-      "minimumVersion": "2.3",
-      "latestVersion": "2.3",
+      "minimumVersion": "2.4",
+      "latestVersion": "2.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%AB%E6%9A%B4%E8%B5%B0%E6%97%8F/id6767499229",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

@@ -6,8 +6,8 @@ name: Sync app versions from App Store
 
 on:
   schedule:
-    # 6時間ごと 01:00 / 07:00 / 13:00 / 19:00 UTC = 10:00 / 16:00 / 22:00 / 翌04:00 JST
-    - cron: '0 1,7,13,19 * * *'
+    # 1時間ごと（毎時17分）。毎時00分は実行が集中して待たされやすいためずらしている
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:

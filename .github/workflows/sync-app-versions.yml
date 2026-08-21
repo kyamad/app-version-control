@@ -52,10 +52,17 @@ jobs:
               return tuple(int(p) for p in parts)
 
           def lookup(ids):
-              url = "https://itunes.apple.com/lookup?id=%s&country=%s" % (",".join(ids), COUNTRY)
-              req = urllib.request.Request(url, headers={"User-Agent": UA})
               last = None
               for attempt in range(3):
+                  # CDN のキャッシュを避けるため、リクエストごとに一意なパラメータを付ける。
+                  # 付けないと App Store に新版が並んでも数時間古いバージョンが返り続けることがある。
+                  cb = "%s-%s-%d" % (os.environ.get("GITHUB_RUN_ID", "0"),
+                                     os.environ.get("GITHUB_RUN_ATTEMPT", "0"),
+                                     time.time_ns())
+                  url = ("https://itunes.apple.com/lookup?id=%s&country=%s&_cb=%s"
+                         % (",".join(ids), COUNTRY, cb))
+                  req = urllib.request.Request(url, headers={
+                      "User-Agent": UA, "Cache-Control": "no-cache", "Pragma": "no-cache"})
                   try:
                       with urllib.request.urlopen(req, timeout=30) as r:
                           if r.status != 200:

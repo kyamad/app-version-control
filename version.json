@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-20T02:58:51Z",
+  "updatedAt": "2026-08-21T07:04:33Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -239,8 +239,8 @@
     "DontComeDontCome.app": {
       "appName": "来るな！きっと来るな！",
       "platform": "iOS",
-      "minimumVersion": "1.6",
-      "latestVersion": "1.6",
+      "minimumVersion": "1.7",
+      "latestVersion": "1.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E6%9D%A5%E3%82%8B%E3%81%AA-%E3%81%8D%E3%81%A3%E3%81%A8%E6%9D%A5%E3%82%8B%E3%81%AA/id6770499617",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -266,8 +266,8 @@
     "FireDestroyer": {
       "appName": "火消しのデストロイ",
       "platform": "iOS",
-      "minimumVersion": "1.5",
-      "latestVersion": "1.5",
+      "minimumVersion": "1.6",
+      "latestVersion": "1.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E7%81%AB%E6%B6%88%E3%81%97%E3%81%AE%E3%83%87%E3%82%B9%E3%83%88%E3%83%AD%E3%82%A4/id6772046061",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

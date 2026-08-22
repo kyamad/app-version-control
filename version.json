@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-22T19:36:09Z",
+  "updatedAt": "2026-08-22T21:36:04Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -311,8 +311,8 @@
     "hummingbirdenergy.app": {
       "appName": "ハチドリは燃費が悪い",
       "platform": "iOS",
-      "minimumVersion": "1.1",
-      "latestVersion": "1.1",
+      "minimumVersion": "1.2",
+      "latestVersion": "1.2",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%81%E3%83%88-%E3%83%AA%E3%81%AF%E7%87%83%E8%B2%BB%E3%81%8B-%E6%82%AA%E3%81%84/id6780319852",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

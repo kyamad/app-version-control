@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T05:02:25Z",
+  "updatedAt": "2026-08-24T22:45:24Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -257,8 +257,8 @@
     "OstrichMemory.app": {
       "appName": "ダチョウの記憶力",
       "platform": "iOS",
-      "minimumVersion": "2.2",
-      "latestVersion": "2.2",
+      "minimumVersion": "2.3",
+      "latestVersion": "2.3",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%81%E3%83%A7%E3%82%A6%E3%81%AE%E8%A8%98%E6%86%B6%E5%8A%9B/id6772075218",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

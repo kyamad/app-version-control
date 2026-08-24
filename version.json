@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-22T21:36:04Z",
+  "updatedAt": "2026-08-24T01:58:12Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -383,8 +383,8 @@
     "tsubutsubutsubushikakari.app": {
       "appName": "つぶつぶ潰し係",
       "platform": "iOS",
-      "minimumVersion": "1.4",
-      "latestVersion": "1.4",
+      "minimumVersion": "1.5",
+      "latestVersion": "1.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%A4%E3%81%B6%E3%81%A4%E3%81%B6%E6%BD%B0%E3%81%97%E4%BF%82/id6796217723",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -392,8 +392,8 @@
     "mochitsuki.app": {
       "appName": "餅は餅つき",
       "platform": "iOS",
-      "minimumVersion": "1.5",
-      "latestVersion": "1.5",
+      "minimumVersion": "1.6",
+      "latestVersion": "1.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%A4%85%E3%81%AF%E9%A4%85%E3%81%A4%E3%81%8D/id6796219724",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -410,8 +410,8 @@
     "takoyakiflip.app": {
       "appName": "たこ焼きをひっくり返せ",
       "platform": "iOS",
-      "minimumVersion": "1.4",
-      "latestVersion": "1.4",
+      "minimumVersion": "1.6",
+      "latestVersion": "1.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D%E3%82%92%E3%81%B2%E3%81%A3%E3%81%8F%E3%82%8A%E8%BF%94%E3%81%9B/id6796548203",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

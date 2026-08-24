@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T01:58:12Z",
+  "updatedAt": "2026-08-24T05:02:25Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -176,8 +176,8 @@
     "com.WorldFossilDiscovery.app": {
       "appName": "世界のかせき発見",
       "platform": "iOS",
-      "minimumVersion": "3.8",
-      "latestVersion": "3.8",
+      "minimumVersion": "3.9",
+      "latestVersion": "3.9",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E4%B8%96%E7%95%8C%E3%81%8B%E3%81%9B%E3%81%8D%E7%99%BA%E8%A6%8B/id6762740551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -203,8 +203,8 @@
     "MoleStrikers.app": {
       "appName": "もぐもぐストライカーズ",
       "platform": "iOS",
-      "minimumVersion": "2.4",
-      "latestVersion": "2.4",
+      "minimumVersion": "2.5",
+      "latestVersion": "2.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%82%E3%81%90%E3%82%82%E3%81%90%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AB%E3%83%BC%E3%82%BA/id6765616624",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

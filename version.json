@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T07:59:07Z",
+  "updatedAt": "2026-08-25T09:01:03Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -194,8 +194,8 @@
     "HurdleSpeeding.app": {
       "appName": "ハードル暴走族",
       "platform": "iOS",
-      "minimumVersion": "2.5",
-      "latestVersion": "2.5",
+      "minimumVersion": "2.6",
+      "latestVersion": "2.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%AB%E6%9A%B4%E8%B5%B0%E6%97%8F/id6767499229",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -230,8 +230,8 @@
     "aaaMarmotaaaaaaaaaa.app": {
       "appName": "あああマーモットああああああああああ",
       "platform": "iOS",
-      "minimumVersion": "2.4",
-      "latestVersion": "2.4",
+      "minimumVersion": "2.5",
+      "latestVersion": "2.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%82%E3%81%82%E3%81%82%E3%83%9E%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/id6769319551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -248,8 +248,8 @@
     "GetInTheRobot.app": {
       "appName": "ロボに乗りなさい",
       "platform": "iOS",
-      "minimumVersion": "1.6",
-      "latestVersion": "1.6",
+      "minimumVersion": "1.7",
+      "latestVersion": "1.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%AD%E3%83%9C%E3%81%AB%E4%B9%97%E3%82%8A%E3%81%AA%E3%81%95%E3%81%84/id6772908094",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -428,8 +428,8 @@
     "hankokakari.app": {
       "appName": "今日も書類にハンコを",
       "platform": "iOS",
-      "minimumVersion": "1.6",
-      "latestVersion": "1.6",
+      "minimumVersion": "1.7",
+      "latestVersion": "1.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E4%BB%8A%E6%97%A5%E3%82%82%E6%9B%B8%E9%A1%9E%E3%81%AB%E3%83%8F%E3%83%B3%E3%82%B3%E3%82%92/id6796647639",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

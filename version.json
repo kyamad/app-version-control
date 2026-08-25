@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T09:01:03Z",
+  "updatedAt": "2026-08-25T10:50:43Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -401,8 +401,8 @@
     "kusakaribaachan.app": {
       "appName": "おばあちゃんは草を刈る",
       "platform": "iOS",
-      "minimumVersion": "1.4",
-      "latestVersion": "1.4",
+      "minimumVersion": "1.5",
+      "latestVersion": "1.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%B0%E3%81%82%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E8%8D%89%E3%82%92%E5%88%88%E3%82%8B/id6796549146",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

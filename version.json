@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T04:01:36Z",
+  "updatedAt": "2026-08-25T07:08:58Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -320,8 +320,8 @@
     "secondvisualnovel.app": {
       "appName": "2周目ノベルゲー",
       "platform": "iOS",
-      "minimumVersion": "1.11",
-      "latestVersion": "1.11",
+      "minimumVersion": "1.12",
+      "latestVersion": "1.12",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/2%E9%80%B1%E7%9B%AE%E3%83%8E%E3%83%98-%E3%83%AB%E3%82%B1-%E3%83%BC/id6782744468",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

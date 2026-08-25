@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T22:45:24Z",
+  "updatedAt": "2026-08-25T04:01:36Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -212,8 +212,8 @@
     "MakimakiFishingBattle.app": {
       "appName": "マキマキ釣りバトル",
       "platform": "iOS",
-      "minimumVersion": "7.1",
-      "latestVersion": "7.1",
+      "minimumVersion": "7.2",
+      "latestVersion": "7.2",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AD%E3%83%9E%E3%82%AD%E9%87%A3%E3%82%8A%E3%83%90%E3%83%88%E3%83%AB/id6764324219",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T05:51:00Z",
+  "updatedAt": "2026-08-26T13:17:29Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -59,8 +59,8 @@
     "ChargingUnicorn.app": {
       "appName": "とっしんユニコーン",
       "platform": "iOS",
-      "minimumVersion": "4.6",
-      "latestVersion": "4.6",
+      "minimumVersion": "4.7",
+      "latestVersion": "4.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%A8%E3%81%A3%E3%81%97%E3%82%93%E3%83%A6%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%B3/id6756765101",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

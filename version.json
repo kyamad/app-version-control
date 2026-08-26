@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T03:06:25Z",
+  "updatedAt": "2026-08-26T05:51:00Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -446,8 +446,8 @@
     "hitsujikari.app": {
       "appName": "ひつじ刈り放題",
       "platform": "iOS",
-      "minimumVersion": "1.1",
-      "latestVersion": "1.1",
+      "minimumVersion": "1.2",
+      "latestVersion": "1.2",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%B2%E3%81%A4%E3%81%98%E5%88%88%E3%82%8A%E6%94%BE%E9%A1%8C/id6800296230",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -473,8 +473,8 @@
     "yukikakitoban.app": {
       "appName": "雪かき当番",
       "platform": "iOS",
-      "minimumVersion": "1.1",
-      "latestVersion": "1.1",
+      "minimumVersion": "1.2",
+      "latestVersion": "1.2",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%9B%AA%E3%81%8B%E3%81%8D%E5%BD%93%E7%95%AA/id6801034004",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

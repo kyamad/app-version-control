@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T23:34:22Z",
+  "updatedAt": "2026-08-27T05:41:57Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -477,6 +477,15 @@
       "latestVersion": "1.2",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%9B%AA%E3%81%8B%E3%81%8D%E5%BD%93%E7%95%AA/id6801034004",
+      "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
+    },
+    "madofukiryugi.app": {
+      "appName": "窓ふきの流儀",
+      "platform": "iOS",
+      "minimumVersion": "1.0",
+      "latestVersion": "1.0",
+      "forceUpdateEnabled": true,
+      "appStoreURL": "https://apps.apple.com/jp/app/%E7%AA%93%E3%81%B5%E3%81%8D%E3%81%AE%E6%B5%81%E5%84%80/id6804629437",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     }
   }

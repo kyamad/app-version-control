@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T05:41:57Z",
+  "updatedAt": "2026-08-27T09:50:47Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -374,8 +374,8 @@
     "capybarayuzu.app": {
       "appName": "カピバラに柚子を",
       "platform": "iOS",
-      "minimumVersion": "1.4",
-      "latestVersion": "1.4",
+      "minimumVersion": "1.5",
+      "latestVersion": "1.5",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%92-%E3%83%8F-%E3%83%A9%E3%81%AB%E6%9F%9A%E5%AD%90%E3%82%92/id6795493470",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -392,8 +392,8 @@
     "mochitsuki.app": {
       "appName": "餅は餅つき",
       "platform": "iOS",
-      "minimumVersion": "1.6",
-      "latestVersion": "1.6",
+      "minimumVersion": "1.7",
+      "latestVersion": "1.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%A4%85%E3%81%AF%E9%A4%85%E3%81%A4%E3%81%8D/id6796219724",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

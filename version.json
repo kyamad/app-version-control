@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T09:50:47Z",
+  "updatedAt": "2026-08-27T10:42:42Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -275,8 +275,8 @@
     "hiyokokantei.app": {
       "appName": "ひよこ鑑定士への道",
       "platform": "iOS",
-      "minimumVersion": "2.0",
-      "latestVersion": "2.0",
+      "minimumVersion": "2.1",
+      "latestVersion": "2.1",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%B2%E3%82%88%E3%81%93%E9%91%91%E5%AE%9A%E5%A3%AB%E3%81%B8%E3%81%AE%E9%81%93/id6773642319",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

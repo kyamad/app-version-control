@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T18:43:50Z",
+  "updatedAt": "2026-08-28T19:47:17Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -194,8 +194,8 @@
     "HurdleSpeeding.app": {
       "appName": "ハードル暴走族",
       "platform": "iOS",
-      "minimumVersion": "2.8",
-      "latestVersion": "2.8",
+      "minimumVersion": "2.9",
+      "latestVersion": "2.9",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%AB%E6%9A%B4%E8%B5%B0%E6%97%8F/id6767499229",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -266,8 +266,8 @@
     "FireDestroyer": {
       "appName": "火消しのデストロイ",
       "platform": "iOS",
-      "minimumVersion": "2.0",
-      "latestVersion": "2.0",
+      "minimumVersion": "2.10",
+      "latestVersion": "2.10",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E7%81%AB%E6%B6%88%E3%81%97%E3%81%AE%E3%83%87%E3%82%B9%E3%83%88%E3%83%AD%E3%82%A4/id6772046061",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

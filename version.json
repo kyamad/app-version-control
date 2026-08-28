@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T20:31:19Z",
+  "updatedAt": "2026-08-28T02:47:35Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -149,8 +149,8 @@
     "GostSweeper.app": {
       "appName": "ゴースト吸いーぱー",
       "platform": "iOS",
-      "minimumVersion": "5.3",
-      "latestVersion": "5.3",
+      "minimumVersion": "5.4",
+      "latestVersion": "5.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E5%90%B8%E3%81%84%E3%83%BC%E3%81%B1%E3%83%BC/id6759086980",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -158,8 +158,8 @@
     "TapWarRobot.app": {
       "appName": "大戦ロボット",
       "platform": "iOS",
-      "minimumVersion": "4.3",
-      "latestVersion": "4.3",
+      "minimumVersion": "4.4",
+      "latestVersion": "4.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E5%A4%A7%E6%88%A6%E3%83%AD%E3%83%9C/id6761041018",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -185,8 +185,8 @@
     "com.MasterCraftSword.app": {
       "appName": "匠の刀",
       "platform": "iOS",
-      "minimumVersion": "3.5",
-      "latestVersion": "3.5",
+      "minimumVersion": "3.6",
+      "latestVersion": "3.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E5%8C%A0%E3%81%AE%E5%88%80/id6763238767",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -221,8 +221,8 @@
     "PowerGenerationLab.app": {
       "appName": "発電ラボ",
       "platform": "iOS",
-      "minimumVersion": "2.3",
-      "latestVersion": "2.3",
+      "minimumVersion": "2.4",
+      "latestVersion": "2.4",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E7%99%BA%E9%9B%BB%E3%83%A9%E3%83%9C/id6766842661",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -230,8 +230,8 @@
     "aaaMarmotaaaaaaaaaa.app": {
       "appName": "あああマーモットああああああああああ",
       "platform": "iOS",
-      "minimumVersion": "2.5",
-      "latestVersion": "2.5",
+      "minimumVersion": "2.6",
+      "latestVersion": "2.6",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%82%E3%81%82%E3%81%82%E3%83%9E%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/id6769319551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -302,8 +302,8 @@
     "flamingoisred.app": {
       "appName": "フラミンゴはなぜ赤い",
       "platform": "iOS",
-      "minimumVersion": "1.9",
-      "latestVersion": "1.9",
+      "minimumVersion": "1.10",
+      "latestVersion": "1.10",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B3-%E3%81%AF%E3%81%AA%E3%81%9B-%E8%B5%A4%E3%81%84/id6780320526",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -338,8 +338,8 @@
     "santasori.app": {
       "appName": "サンタのそりに荷物を",
       "platform": "iOS",
-      "minimumVersion": "1.8",
-      "latestVersion": "1.8",
+      "minimumVersion": "1.9",
+      "latestVersion": "1.9",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B5%E3%83%B3%E3%82%BF%E3%81%AE%E3%81%9D%E3%82%8A%E3%81%AB%E8%8D%B7%E7%89%A9%E3%82%92/id6789007886",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -383,8 +383,8 @@
     "tsubutsubutsubushikakari.app": {
       "appName": "つぶつぶ潰し係",
       "platform": "iOS",
-      "minimumVersion": "1.6",
-      "latestVersion": "1.6",
+      "minimumVersion": "1.7",
+      "latestVersion": "1.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%A4%E3%81%B6%E3%81%A4%E3%81%B6%E6%BD%B0%E3%81%97%E4%BF%82/id6796217723",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -392,8 +392,8 @@
     "mochitsuki.app": {
       "appName": "餅は餅つき",
       "platform": "iOS",
-      "minimumVersion": "1.7",
-      "latestVersion": "1.7",
+      "minimumVersion": "1.8",
+      "latestVersion": "1.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%A4%85%E3%81%AF%E9%A4%85%E3%81%A4%E3%81%8D/id6796219724",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

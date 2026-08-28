@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T19:47:17Z",
+  "updatedAt": "2026-08-28T21:47:16Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -230,8 +230,8 @@
     "aaaMarmotaaaaaaaaaa.app": {
       "appName": "あああマーモットああああああああああ",
       "platform": "iOS",
-      "minimumVersion": "2.6",
-      "latestVersion": "2.6",
+      "minimumVersion": "2.7",
+      "latestVersion": "2.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%82%E3%81%82%E3%81%82%E3%83%9E%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/id6769319551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -293,8 +293,8 @@
     "snowballsnowman.app": {
       "appName": "雪だるま式雪だるま",
       "platform": "iOS",
-      "minimumVersion": "1.7",
-      "latestVersion": "1.7",
+      "minimumVersion": "1.8",
+      "latestVersion": "1.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%9B%AA%E3%81%9F-%E3%82%8B%E3%81%BE%E5%BC%8F%E9%9B%AA%E3%81%9F-%E3%82%8B%E3%81%BE/id6777918768",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

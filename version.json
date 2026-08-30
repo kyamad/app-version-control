@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T19:47:15Z",
+  "updatedAt": "2026-08-30T22:47:15Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -329,8 +329,8 @@
     "PenguinFishCatch.app": {
       "appName": "魚キャッチ",
       "platform": "iOS",
-      "minimumVersion": "1.7",
-      "latestVersion": "1.7",
+      "minimumVersion": "1.8",
+      "latestVersion": "1.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E3%81%AE%E9%AD%9A%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81/id6789468696",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -338,8 +338,8 @@
     "santasori.app": {
       "appName": "サンタのそりに荷物を",
       "platform": "iOS",
-      "minimumVersion": "1.10",
-      "latestVersion": "1.10",
+      "minimumVersion": "1.11",
+      "latestVersion": "1.11",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%B5%E3%83%B3%E3%82%BF%E3%81%AE%E3%81%9D%E3%82%8A%E3%81%AB%E8%8D%B7%E7%89%A9%E3%82%92/id6789007886",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -347,8 +347,8 @@
     "AlligatorDentist.app": {
       "appName": "ワニの歯みがき係",
       "platform": "iOS",
-      "minimumVersion": "1.9",
-      "latestVersion": "1.9",
+      "minimumVersion": "1.10",
+      "latestVersion": "1.10",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%AF%E3%83%8B%E3%81%AE%E6%AD%AF%E3%81%BF%E3%81%8B-%E3%81%8D%E4%BF%82/id6789013257",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -356,8 +356,8 @@
     "GrowMushrooms": {
       "appName": "きのこを生やす",
       "platform": "iOS",
-      "minimumVersion": "1.10",
-      "latestVersion": "1.10",
+      "minimumVersion": "1.11",
+      "latestVersion": "1.11",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%8D%E3%81%AE%E3%81%93%E3%82%92%E7%94%9F%E3%82%84%E3%81%99/id6789468032",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -374,8 +374,8 @@
     "capybarayuzu.app": {
       "appName": "カピバラに柚子を",
       "platform": "iOS",
-      "minimumVersion": "1.7",
-      "latestVersion": "1.7",
+      "minimumVersion": "1.8",
+      "latestVersion": "1.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%92-%E3%83%8F-%E3%83%A9%E3%81%AB%E6%9F%9A%E5%AD%90%E3%82%92/id6795493470",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -383,8 +383,8 @@
     "tsubutsubutsubushikakari.app": {
       "appName": "つぶつぶ潰し係",
       "platform": "iOS",
-      "minimumVersion": "1.8",
-      "latestVersion": "1.8",
+      "minimumVersion": "1.9",
+      "latestVersion": "1.9",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%A4%E3%81%B6%E3%81%A4%E3%81%B6%E6%BD%B0%E3%81%97%E4%BF%82/id6796217723",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -392,8 +392,8 @@
     "mochitsuki.app": {
       "appName": "餅は餅つき",
       "platform": "iOS",
-      "minimumVersion": "1.9",
-      "latestVersion": "1.9",
+      "minimumVersion": "1.10",
+      "latestVersion": "1.10",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%A4%85%E3%81%AF%E9%A4%85%E3%81%A4%E3%81%8D/id6796219724",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -401,8 +401,8 @@
     "kusakaribaachan.app": {
       "appName": "おばあちゃんは草を刈る",
       "platform": "iOS",
-      "minimumVersion": "1.6",
-      "latestVersion": "1.6",
+      "minimumVersion": "1.7",
+      "latestVersion": "1.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%B0%E3%81%82%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E8%8D%89%E3%82%92%E5%88%88%E3%82%8B/id6796549146",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -410,8 +410,8 @@
     "takoyakiflip.app": {
       "appName": "たこ焼きをひっくり返せ",
       "platform": "iOS",
-      "minimumVersion": "1.8",
-      "latestVersion": "1.8",
+      "minimumVersion": "1.9",
+      "latestVersion": "1.9",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D%E3%82%92%E3%81%B2%E3%81%A3%E3%81%8F%E3%82%8A%E8%BF%94%E3%81%9B/id6796548203",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -428,8 +428,8 @@
     "hankokakari.app": {
       "appName": "今日も書類にハンコを",
       "platform": "iOS",
-      "minimumVersion": "1.10",
-      "latestVersion": "1.10",
+      "minimumVersion": "1.11",
+      "latestVersion": "1.11",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E4%BB%8A%E6%97%A5%E3%82%82%E6%9B%B8%E9%A1%9E%E3%81%AB%E3%83%8F%E3%83%B3%E3%82%B3%E3%82%92/id6796647639",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

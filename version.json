@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T02:47:15Z",
+  "updatedAt": "2026-08-30T17:47:16Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -230,8 +230,8 @@
     "aaaMarmotaaaaaaaaaa.app": {
       "appName": "あああマーモットああああああああああ",
       "platform": "iOS",
-      "minimumVersion": "2.7",
-      "latestVersion": "2.7",
+      "minimumVersion": "2.8",
+      "latestVersion": "2.8",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%82%E3%81%82%E3%81%82%E3%83%9E%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/id6769319551",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

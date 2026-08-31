@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T12:47:16Z",
+  "updatedAt": "2026-08-31T20:06:39Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -239,8 +239,8 @@
     "DontComeDontCome.app": {
       "appName": "来るな！きっと来るな！",
       "platform": "iOS",
-      "minimumVersion": "1.8",
-      "latestVersion": "1.8",
+      "minimumVersion": "1.9",
+      "latestVersion": "1.9",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E6%9D%A5%E3%82%8B%E3%81%AA-%E3%81%8D%E3%81%A3%E3%81%A8%E6%9D%A5%E3%82%8B%E3%81%AA/id6770499617",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

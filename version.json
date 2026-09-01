@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-01T09:35:01Z",
+  "updatedAt": "2026-09-01T15:47:17Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -293,8 +293,8 @@
     "snowballsnowman.app": {
       "appName": "雪だるま式雪だるま",
       "platform": "iOS",
-      "minimumVersion": "1.9",
-      "latestVersion": "1.9",
+      "minimumVersion": "1.10",
+      "latestVersion": "1.10",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%9B%AA%E3%81%9F-%E3%82%8B%E3%81%BE%E5%BC%8F%E9%9B%AA%E3%81%9F-%E3%82%8B%E3%81%BE/id6777918768",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

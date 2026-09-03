@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-01T22:47:18Z",
+  "updatedAt": "2026-09-03T05:47:15Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -491,8 +491,8 @@
     "GourmetPanda.app": {
       "appName": "美食パンダを唸らせる",
       "platform": "iOS",
-      "minimumVersion": "1.0",
-      "latestVersion": "1.0",
+      "minimumVersion": "1.2",
+      "latestVersion": "1.2",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E7%BE%8E%E9%A3%9F%E3%83%91%E3%83%B3%E3%83%80%E3%82%92%E5%94%B8%E3%82%89%E3%81%9B%E3%82%8B/id6789469244",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

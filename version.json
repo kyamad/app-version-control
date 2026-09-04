@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T16:47:18Z",
+  "updatedAt": "2026-09-04T17:47:17Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -383,8 +383,8 @@
     "tsubutsubutsubushikakari.app": {
       "appName": "つぶつぶ潰し係",
       "platform": "iOS",
-      "minimumVersion": "1.10",
-      "latestVersion": "1.10",
+      "minimumVersion": "1.11",
+      "latestVersion": "1.11",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%A4%E3%81%B6%E3%81%A4%E3%81%B6%E6%BD%B0%E3%81%97%E4%BF%82/id6796217723",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

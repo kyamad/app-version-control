@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T15:47:17Z",
+  "updatedAt": "2026-09-04T16:47:18Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -203,8 +203,8 @@
     "MoleStrikers.app": {
       "appName": "もぐもぐストライカーズ",
       "platform": "iOS",
-      "minimumVersion": "2.11",
-      "latestVersion": "2.11",
+      "minimumVersion": "2.12",
+      "latestVersion": "2.12",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%82%82%E3%81%90%E3%82%82%E3%81%90%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AB%E3%83%BC%E3%82%BA/id6765616624",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -428,8 +428,8 @@
     "hankokakari.app": {
       "appName": "今日も書類にハンコを",
       "platform": "iOS",
-      "minimumVersion": "1.13",
-      "latestVersion": "1.13",
+      "minimumVersion": "1.14",
+      "latestVersion": "1.14",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E4%BB%8A%E6%97%A5%E3%82%82%E6%9B%B8%E9%A1%9E%E3%81%AB%E3%83%8F%E3%83%B3%E3%82%B3%E3%82%92/id6796647639",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

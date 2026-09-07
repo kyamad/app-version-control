@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07T18:47:17Z",
+  "updatedAt": "2026-09-07T19:47:16Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -410,8 +410,8 @@
     "takoyakiflip.app": {
       "appName": "たこ焼きをひっくり返せ",
       "platform": "iOS",
-      "minimumVersion": "1.11",
-      "latestVersion": "1.11",
+      "minimumVersion": "1.12",
+      "latestVersion": "1.12",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D%E3%82%92%E3%81%B2%E3%81%A3%E3%81%8F%E3%82%8A%E8%BF%94%E3%81%9B/id6796548203",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

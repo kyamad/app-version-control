@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08T20:47:18Z",
+  "updatedAt": "2026-09-08T22:47:16Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -302,8 +302,8 @@
     "flamingoisred.app": {
       "appName": "フラミンゴはなぜ赤い",
       "platform": "iOS",
-      "minimumVersion": "1.14",
-      "latestVersion": "1.14",
+      "minimumVersion": "1.15",
+      "latestVersion": "1.15",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B3-%E3%81%AF%E3%81%AA%E3%81%9B-%E8%B5%A4%E3%81%84/id6780320526",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

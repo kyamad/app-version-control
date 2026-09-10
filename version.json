@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T17:47:54Z",
+  "updatedAt": "2026-09-10T07:47:17Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -185,8 +185,8 @@
     "com.MasterCraftSword.app": {
       "appName": "匠の刀",
       "platform": "iOS",
-      "minimumVersion": "3.8",
-      "latestVersion": "3.8",
+      "minimumVersion": "3.9",
+      "latestVersion": "3.9",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E5%8C%A0%E3%81%AE%E5%88%80/id6763238767",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
@@ -221,8 +221,8 @@
     "PowerGenerationLab.app": {
       "appName": "発電ラボ",
       "platform": "iOS",
-      "minimumVersion": "2.6",
-      "latestVersion": "2.6",
+      "minimumVersion": "2.7",
+      "latestVersion": "2.7",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E7%99%BA%E9%9B%BB%E3%83%A9%E3%83%9C/id6766842661",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

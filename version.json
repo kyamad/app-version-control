@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T21:23:19Z",
+  "updatedAt": "2026-09-15T21:47:17Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -347,8 +347,8 @@
     "AlligatorDentist.app": {
       "appName": "ワニの歯みがき係",
       "platform": "iOS",
-      "minimumVersion": "1.14",
-      "latestVersion": "1.14",
+      "minimumVersion": "1.15",
+      "latestVersion": "1.15",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E3%83%AF%E3%83%8B%E3%81%AE%E6%AD%AF%E3%81%BF%E3%81%8B-%E3%81%8D%E4%BF%82/id6789013257",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

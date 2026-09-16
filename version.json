@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T02:07:13Z",
+  "updatedAt": "2026-09-16T08:08:59Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -514,6 +514,42 @@
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/id6808514234",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
+    },
+    "okikusushi.app": {
+      "appName": "お寿司屋バイトのお菊さん",
+      "platform": "iOS",
+      "minimumVersion": "1.0",
+      "latestVersion": "1.0",
+      "forceUpdateEnabled": false,
+      "appStoreURL": "",
+      "message": "新しいバージョンへのアップデートが必要です。ストアから最新版へ更新してください。"
+    },
+    "okikusushi.app:android": {
+      "appName": "お寿司屋バイトのお菊さん",
+      "platform": "Android",
+      "minimumVersion": "1.0",
+      "latestVersion": "1.0",
+      "forceUpdateEnabled": false,
+      "appStoreURL": "",
+      "message": "新しいバージョンへのアップデートが必要です。ストアから最新版へ更新してください。"
+    },
+    "nigerohiyayakko.app": {
+      "appName": "逃げろ冷奴！",
+      "platform": "iOS",
+      "minimumVersion": "1.0",
+      "latestVersion": "1.0",
+      "forceUpdateEnabled": false,
+      "appStoreURL": "",
+      "message": "新しいバージョンへのアップデートが必要です。ストアから最新版へ更新してください。"
+    },
+    "nigerohiyayakko.app:android": {
+      "appName": "逃げろ冷奴！",
+      "platform": "Android",
+      "minimumVersion": "1.0",
+      "latestVersion": "1.0",
+      "forceUpdateEnabled": false,
+      "appStoreURL": "",
+      "message": "新しいバージョンへのアップデートが必要です。ストアから最新版へ更新してください。"
     }
   }
 }

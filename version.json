@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T08:08:59Z",
+  "updatedAt": "2026-09-16T15:47:19Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -365,8 +365,8 @@
     "tamashiinoyugiri.app": {
       "appName": "魂の湯切り",
       "platform": "iOS",
-      "minimumVersion": "1.12",
-      "latestVersion": "1.12",
+      "minimumVersion": "1.13",
+      "latestVersion": "1.13",
       "forceUpdateEnabled": true,
       "appStoreURL": "https://apps.apple.com/jp/app/%E9%AD%82%E3%81%AE%E6%B9%AF%E5%88%87%E3%82%8A/id6792601758",
       "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T21:47:17Z",
+  "updatedAt": "2026-09-29T02:15:42Z",
   "apps": {
     "SheepGame.app": {
       "appName": "メェメェスリープ",
@@ -538,9 +538,9 @@
       "platform": "iOS",
       "minimumVersion": "1.0",
       "latestVersion": "1.0",
-      "forceUpdateEnabled": false,
-      "appStoreURL": "",
-      "message": "新しいバージョンへのアップデートが必要です。ストアから最新版へ更新してください。"
+      "forceUpdateEnabled": true,
+      "appStoreURL": "https://apps.apple.com/jp/app/id6812710336",
+      "message": "新しいバージョンへのアップデートが必要です。App Storeから最新版へ更新してください。"
     },
     "nigerohiyayakko.app:android": {
       "appName": "逃げろ冷奴！",
